@@ -1,0 +1,12 @@
+# Arquivos temporários
+.swp
+.swo
+.swn
+
+# Arquivos de log
+.log
+
+# Diretórios
+node_modules
+.idea
+.vscode
