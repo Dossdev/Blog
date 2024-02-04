@@ -1150,17 +1150,4 @@ footer .wrapper {
     background: var(--accent);
     color: var(--white);
   }
-
-  /**
-   * FOOTER 
-   */
-
-  .footer-title {
-    font-size: 1.125rem;
-  }
-
-  .footer-link {
-    margin-bottom: 0.3rem;
-  }
-
 }
