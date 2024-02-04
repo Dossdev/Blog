@@ -9,7 +9,7 @@
 
   <!-- favicon -->
 
-  <link rel="shortcut icon" href="./assets/images/Doss logo white.png.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/Doss logo white.png" type="image/x-icon">
 
   <!-- custom css link -->
 
@@ -191,41 +191,33 @@
         <!-- SEÇÃO DO BLOG -->
 
         <div class="blog">
-
           <h2 class="h2">News</h2>
-
+        
           <div class="blog-card-group">
-
+            <!-- Blog Card -->
             <div class="blog-card">
-
               <div class="blog-card-banner">
                 <img src="./assets/images/titanic.jpg" alt="Cinema e o capitalismo" width="250" class="blog-banner-img">
               </div>
-
               <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Artigos</button>
-
                 <h3>
-                  <a href="#" class="h3">
+                  <a href="https://medium.com/@dossnotion/cinema-e-o-capitalismo-8dfa412f9efc" class="h3">
                     Cinema e o capitalismo
                   </a>
                 </h3>
-
+        
                 <p class="blog-text">
-                  Gosto muito de cinema, isso todos que me conhecem sabem. Sou um apaixonado, não me considero um
-                  cinéfilo, mas definitivamente sou um maluco da cabeça.
+                  Gosto muito de cinema, isso todos que me conhecem sabem. Sou um apaixonado, não me considero um cinéfilo, mas
+                  definitivamente sou um maluco da cabeça.
                 </p>
-
+        
                 <div class="wrapper-flex">
-
                   <div class="profile-wrapper">
                     <img src="./assets/images/Doss.png" alt="Matheus Catarina" width="50">
                   </div>
-
+        
                   <div class="wrapper">
-                    <a href="#" class="h4">Matheus Catarina</a>
-
+                    <a href="Fale comigo.html" class="h4">Matheus Catarina</a>
                     <p class="text-sm">
                       <time datetime="2024-01-24">Jan 24, 2024</time>
                       <span class="separator"></span>
@@ -233,22 +225,18 @@
                       <time datetime="PT3M">4 min</time>
                     </p>
                   </div>
-
                 </div>
-
               </div>
-
             </div>
+            <!-- final blog -->
+           </div>
 
+  <a href="https://medium.com/@dossnotion">
+    <button class="btn load-more">Load More</button>
+  </a>
+</div>
 
-          </div>
-
-          <button class="btn load-more">Load More</button>
-
-        </div>
-
-
-
+        
         <!-- LATERAL -->
 
         <div class="aside">
@@ -285,19 +273,6 @@
 
           <div class="tags">
 
-            <h2 class="h2">Tags</h2>
-
-            <div class="wrapper">
-
-              <button class="hashtag">#crypto</button>
-              <button class="hashtag">#cinema</button>
-              <button class="hashtag">#book</button>
-              <button class="hashtag">#games</button>
-              <button class="hashtag">#opinião</button>
-              <button class="hashtag">#dev</button>
-
-            </div>
-
           </div>
 
           <div class="contact">
@@ -313,7 +288,7 @@
               <ul class="social-link">
 
                 <li>
-                  <a href="#" class="icon-box discord">
+                  <a href="@dosswr" class="icon-box discord">
                     <ion-icon name="logo-discord"></ion-icon>
                   </a>
                 </li>
@@ -425,12 +400,27 @@
   </footer>
 
 
-  <!-- custom js link -->
-  <script src="./assets/js/script.js"></script>
-
   <!-- nionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+<!-- Adicione no final do seu arquivo HTML -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var discordButton = document.querySelector('.icon-box.discord');
+    11
+    discordButton.addEventListener('click', function (event) {
+      event.preventDefault();
+      
+      var textToCopy = '@dosswr';
+      
+      navigator.clipboard.writeText(textToCopy).then(function() {
+        alert('Copiado');
+      }).catch(function(err) {
+        console.error('Erro ao copiar para a área de transferência: ', err);
+      });
+    });
+  });
+</script>
 
 </html>
