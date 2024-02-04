@@ -5,7 +5,7 @@
 .light-theme {
 
   /**
-   * light theme colors 
+   * light theme  
    */
 
   --background-primary: hsl(0, 0%, 100%);
@@ -25,7 +25,7 @@
 .dark-theme {
 
   /**
-   * dark theme colors 
+   * dark theme  
    */
 
   --background-primary: hsl(218, 23%, 23%);
@@ -45,13 +45,13 @@
 :root {
 
   /**
-   * color
+   * cor
    */
 
   --white: hsl(0, 0%, 100%);
 
   /**
-   * typography 
+   * typografia 
    */
 
   --fs-base: 0.85rem;
@@ -68,10 +68,6 @@
   --py: 6rem;
 
 }
-
-
-
-
 
 /*-----------------------------------*\ 
   #RESET
